@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#from pyairtable import Table
+from pyairtable import Table
 
 
 st.title('Update forms')
