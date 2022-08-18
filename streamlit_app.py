@@ -13,9 +13,5 @@ st.write('You selected:', option)
 
 st.button('update')
 
-
-def update_airtable():
-     pass
-     
      
 
