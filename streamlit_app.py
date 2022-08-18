@@ -5,7 +5,7 @@ import os
 from pyairtable import Table
 
 airtable_api = os.environ["AIRTABLE_API"]
-BASE_ID ="ZkqEUVtVZFZB9K"
+BASE_ID ="appZkqEUVtVZFZB9K"
 TABLE_NAME = "test"
 
 
