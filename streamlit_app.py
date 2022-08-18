@@ -4,7 +4,7 @@ import numpy as np
 import os
 from pyairtable import Table
 
-airtable_api = os.environ[AIRTABLE_API]
+airtable_api = os.environ["AIRTABLE_API"]
 BASE_ID ="ZkqEUVtVZFZB9K"
 TABLE_NAME = "test"
 
