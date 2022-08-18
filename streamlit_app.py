@@ -4,8 +4,8 @@ import numpy as np
 
 st.title('Update forms')
 option = st.selectbox(
-     'How would you like to be contacted?',
-     ('Email', 'Home phone', 'Mobile phone'))
+     'Select the activity to update?',
+     ('3.1-MIT', '3.1-ADA', '4.10-ADA'))
 
 st.write('You selected:', option)
 
