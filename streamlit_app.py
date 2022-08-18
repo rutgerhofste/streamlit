@@ -1,10 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
 from pyairtable import Table
 
+airtable_api = os.environ[AIRTABLE_API]
 BASE_ID ="ZkqEUVtVZFZB9K"
 TABLE_NAME = "test"
+
 
 
 st.title('Update forms')
@@ -16,8 +19,10 @@ st.write('You selected:', option)
 
 st.button('update')
 
-api_key = AIRTABLE_API
-table = Table(api_key, BASE_ID , TABLE_NAME)
 
-foo = table.all()
+
+
+#table = Table(airtable_api , BASE_ID , TABLE_NAME)
+
+#foo = table.all()
 
