@@ -19,10 +19,8 @@ st.write('You selected:', option)
 
 st.button('update')
 
+table = Table(airtable_api , BASE_ID , TABLE_NAME)
 
+foo = table.all()
 
-
-#table = Table(airtable_api , BASE_ID , TABLE_NAME)
-
-#foo = table.all()
-
+st.title(foo)
