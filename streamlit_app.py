@@ -23,4 +23,4 @@ table = Table(airtable_api , BASE_ID , TABLE_NAME)
 
 foo = table.all()
 
-st.title(foo)
+st.write(foo)
