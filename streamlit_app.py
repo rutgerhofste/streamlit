@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 from pyairtable import Table
 
+BASE_ID ="ZkqEUVtVZFZB9K"
+TABLE_NAME = "test"
+
 
 st.title('Update forms')
 option = st.selectbox(
@@ -13,8 +16,8 @@ st.write('You selected:', option)
 
 st.button('update')
 
-foo = "test"
+api_key = AIRTABLE_API
+table = Table(api_key, BASE_ID , TABLE_NAME)
 
-st.title(foo)
-     
+foo = table.all()
 
