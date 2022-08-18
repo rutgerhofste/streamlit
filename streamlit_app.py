@@ -9,5 +9,5 @@ option = st.selectbox(
 
 st.write('You selected:', option)
 
-st.button('update',onClick=print("hello"))
+st.button('update')
 
