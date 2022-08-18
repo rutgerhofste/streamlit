@@ -13,6 +13,8 @@ st.write('You selected:', option)
 
 st.button('update')
 
-print("hello")
+foo = "test"
+
+st.title("title2)
      
 
