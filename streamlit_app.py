@@ -15,6 +15,6 @@ st.button('update')
 
 foo = "test"
 
-st.title("title2")
+st.title(foo)
      
 
